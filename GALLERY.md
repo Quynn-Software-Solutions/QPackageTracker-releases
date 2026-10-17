@@ -1,6 +1,6 @@
 <div align="center">
 
-# USPS Tracker Screenshots
+# QPackageTracker Screenshots
 
 The main window, calendar, dialogs and settings in the light and dark themes, shown with
 the built-in demo data (Help > Try Demo Mode).
