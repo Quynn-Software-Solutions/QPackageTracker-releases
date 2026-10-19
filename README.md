@@ -14,6 +14,8 @@ Follow your packages from label to doorstep, from USPS, UPS, FedEx, DHL and more
 
 [Download](#download) | [Screenshots](#screenshots) | [Free and Business](#free-and-business) | [Verify a download](#verify-a-download) | [Support](#support) | [License](#license-and-attributions)
 
+[![Buy now](https://img.shields.io/badge/Buy%20now-Business%20license-2ea44f?style=for-the-badge)](http://my.quynnsoftware.com/order/q-package-tracker)
+
 </div>
 
 QPackageTracker is a desktop app for Windows and Linux that keeps an eye on your tracking numbers: USPS for everyone, and UPS, FedEx, DHL and more with Business. Add a number, or paste or import a whole list. The app checks the carrier's official API on a schedule you control, keeps each package's full event history, and notifies you with the schedules you set up: a desktop notification when a package is out for delivery, an email to a customer when it arrives, a reminder if it hasn't moved in three days.
@@ -101,6 +103,8 @@ More in the **[screenshot gallery](GALLERY.md)**: every dialog in the light and 
 ## Free and Business
 
 QPackageTracker is free for personal use. A **Business** license is for tracking at volume, across carriers, and notifying other people. Every paid feature below is Business only; Free users see them in the app with a lock.
+
+[![Buy now](https://img.shields.io/badge/Buy%20now-Business%20license-2ea44f?style=for-the-badge)](http://my.quynnsoftware.com/order/q-package-tracker)
 
 | Feature | Free | Business |
 |---|---|---|
