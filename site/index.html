@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QPackageTracker: know where your packages are</title>
+  <meta name="description" content="QPackageTracker is a desktop app for Windows and Linux that watches your tracking numbers and tells you when something changes. Free for personal use.">
+  <meta name="theme-color" content="#004b87">
+  <meta property="og:title" content="QPackageTracker">
+  <meta property="og:description" content="Watches your tracking numbers and tells you when something changes. Free for personal use, on Windows and Linux.">
+  <meta property="og:image" content="assets/images/main-light.png">
+  <link rel="icon" href="assets/images/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/icon-512.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/images/icon.svg" alt="" width="32" height="32">
+      <span>QPackageTracker</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">Help</a>
+      <a class="btn btn-primary btn-sm" href="#download">Download</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">For Windows and Linux</p>
+        <h1>Know where your packages are, without checking.</h1>
+        <p class="lead">
+          QPackageTracker keeps an eye on your tracking numbers and lets you know when something
+          changes: a package is out for delivery, it's arrived, or it hasn't moved in days.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" id="hero-download"
+             href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
+            <span id="hero-download-label">Download free</span>
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#pricing">For businesses</a>
+        </div>
+        <p class="hero-meta" id="hero-meta">Free for personal use. No account, no ads.</p>
+      </div>
+      <figure class="hero-shot">
+        <picture>
+          <source srcset="assets/images/main-dark.png" media="(prefers-color-scheme: dark)">
+          <img src="assets/images/main-light.png" width="1280" height="800"
+               alt="The QPackageTracker window, with a list of packages and the delivery timeline for the selected one">
+        </picture>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Reassurance -->
+  <section class="trust" aria-label="At a glance">
+    <ul class="wrap trust-list">
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/></svg>Your information stays on your computer</li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6M3 3l18 18"/></svg>No account to create</li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 5 18 14"/></svg>No ads or tracking</li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4zM3 7v10l9 4 9-4V7M12 11v10"/></svg>USPS included; UPS, FedEx and DHL with Business</li>
+    </ul>
+  </section>
+
+  <!-- How it works -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <h2>Up and running in three steps</h2>
+      <ol class="steps">
+        <li>
+          <span class="step-num">1</span>
+          <h3>Download and install</h3>
+          <p>Get the installer for your computer and open it. On Windows it installs just for you, so you
+             don't need an administrator password.</p>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <h3>Follow the setup</h3>
+          <p>A short setup guide helps you connect to the free USPS tracking service, step by step with
+             pictures, and choose how you'd like to be told about updates.</p>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <h3>Add your tracking numbers</h3>
+          <p>Type one in, paste a whole list, or open a spreadsheet. QPackageTracker checks them for you
+             and lets you know when anything changes.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section section-alt" id="features">
+    <div class="wrap">
+      <h2>Everything in one place</h2>
+      <p class="section-lead">No more copying tracking numbers into carrier websites one at a time.</p>
+      <div class="cards">
+        <article class="card">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10 21h4"/></svg>
+          <h3>Updates come to you</h3>
+          <p>Get a notification on your computer when a package is out for delivery, arrives, or gets stuck.
+             You choose what's worth hearing about.</p>
+        </article>
+        <article class="card">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 4h6v3H9zM7 5H5v16h14V5h-2M8 12h8M8 16h5"/></svg>
+          <h3>Add many at once</h3>
+          <p>Paste a list or open a CSV or Excel file. QPackageTracker spots duplicates and mistyped numbers
+             before you add them.</p>
+        </article>
+        <article class="card">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          <h3>See the week ahead</h3>
+          <p>A calendar shows every expected delivery and reminder, so you know when to be home.</p>
+        </article>
+        <article class="card">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="9"/></svg>
+          <h3>Reminders when things stall</h3>
+          <p>If a package hasn't moved in a few days, QPackageTracker can remind you to follow up.</p>
+        </article>
+        <article class="card">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+          <h3>Private and secure</h3>
+          <p>Your packages and history are saved on your own computer, and your passwords are kept in an
+             encrypted vault.</p>
+        </article>
+        <article class="card">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 7h18v10H3zM7 21h10M12 17v4"/></svg>
+          <h3>Works in the background</h3>
+          <p>It sits quietly next to your clock and keeps checking, even with the window closed. Delivered
+             packages tidy themselves into an archive.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="section" id="screenshots">
+    <div class="wrap">
+      <h2>Take a look</h2>
+      <div class="shots">
+        <figure>
+          <a href="assets/images/calendar-light.png" data-gallery="calendar"><picture><source srcset="assets/images/calendar-dark.png" media="(prefers-color-scheme: dark)"><img src="assets/images/calendar-light.png" width="1280" height="800" loading="lazy"
+             alt="Calendar showing expected deliveries and reminders for the month"></picture></a>
+          <figcaption>Calendar and reminders</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/images/paste-light.png" data-gallery="paste"><picture><source srcset="assets/images/paste-dark.png" media="(prefers-color-scheme: dark)"><img src="assets/images/paste-light.png" width="760" height="640" loading="lazy"
+             alt="Pasting a list of tracking numbers, with duplicates flagged"></picture></a>
+          <figcaption>Paste a whole list at once</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/images/schedule-light.png" data-gallery="schedule"><picture><source srcset="assets/images/schedule-dark.png" media="(prefers-color-scheme: dark)"><img src="assets/images/schedule-light.png" width="700" height="660" loading="lazy"
+             alt="Choosing when to be notified about a package"></picture></a>
+          <figcaption>Choose when you're notified</figcaption>
+        </figure>
+      </div>
+      <p class="center"><a class="link" data-gallery="main" href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/blob/main/GALLERY.md">See every screen, in light and dark</a></p>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section-alt" id="pricing">
+    <div class="wrap">
+      <h2>Free at home. Business when you need more.</h2>
+      <p class="section-lead">Every update is included in both.</p>
+      <div class="plans">
+        <article class="plan">
+          <h3>Free</h3>
+          <p class="plan-for">For personal use</p>
+          <ul class="checks">
+            <li>Track up to 10 packages at a time</li>
+            <li>USPS tracking</li>
+            <li>Desktop notifications</li>
+            <li>Calendar, reminders and archive</li>
+            <li>Paste and spreadsheet import</li>
+          </ul>
+          <a class="btn btn-ghost btn-block" href="#download">Download free</a>
+          <p class="plan-note">No account or license key needed. Upgrade any time without reinstalling.</p>
+        </article>
+        <article class="plan plan-featured">
+          <h3>Business</h3>
+          <p class="plan-for">For shops, sellers and offices</p>
+          <ul class="checks">
+            <li><strong>Unlimited</strong> packages</li>
+            <li>UPS, FedEx and DHL, plus many more carriers</li>
+            <li>Email your customers when a package arrives</li>
+            <li>Alerts by text message, Slack, Teams or Discord</li>
+            <li>Order numbers, customer names and tags</li>
+            <li>Proof of delivery PDFs and claim reminders</li>
+            <li>Automatic backups</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="http://my.quynnsoftware.com/order/q-package-tracker">Buy now</a>
+          <p class="plan-note">One license covers one computer. Start with the free download, then enter your key
+             under Help &gt; License.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section class="section" id="download">
+    <div class="wrap">
+      <h2>Download QPackageTracker</h2>
+      <p class="section-lead" id="release-line">Free for personal use.</p>
+
+      <div class="tabs" role="tablist" aria-label="Choose your computer">
+        <button role="tab" id="tab-windows" aria-controls="panel-windows" aria-selected="true">Windows</button>
+        <button role="tab" id="tab-linux" aria-controls="panel-linux" aria-selected="false" tabindex="-1">Linux</button>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-windows" aria-labelledby="tab-windows">
+        <a class="dl dl-main" data-file="windows_installer"
+           href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+          <span class="dl-title">Windows installer <span class="badge">Recommended</span></span>
+          <span class="dl-desc">For Windows 10 and 11. Updates install from inside the app.</span>
+          <span class="dl-size" data-size></span>
+        </a>
+        <a class="dl" data-file="windows_portable"
+           href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+          <span class="dl-title">Portable version</span>
+          <span class="dl-desc">Runs from a folder or USB stick without installing.</span>
+          <span class="dl-size" data-size></span>
+        </a>
+        <details class="howto">
+          <summary>How to install on Windows</summary>
+          <ol>
+            <li>Click <strong>Windows installer</strong> above and wait for the download to finish.</li>
+            <li>Open the file from your Downloads folder.</li>
+            <li>If Windows shows a blue <em>"Windows protected your PC"</em> box, click <strong>More info</strong>,
+                then <strong>Run anyway</strong>.</li>
+            <li>Follow the installer, then open QPackageTracker from the Start menu.</li>
+          </ol>
+        </details>
+      </div>
+
+      <div class="panel" role="tabpanel" id="panel-linux" aria-labelledby="tab-linux" hidden>
+        <a class="dl dl-main" data-file="deb"
+           href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+          <span class="dl-title">Ubuntu and Debian (.deb) <span class="badge">Recommended</span></span>
+          <span class="dl-desc">Ubuntu 22.04 or newer, Debian 12 or newer. Updates install from inside the app.</span>
+          <span class="dl-size" data-size></span>
+        </a>
+        <a class="dl" data-file="appimage"
+           href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+          <span class="dl-title">AppImage</span>
+          <span class="dl-desc">A single file that runs on most other Linux systems.</span>
+          <span class="dl-size" data-size></span>
+        </a>
+        <a class="dl" data-file="flatpak"
+           href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+          <span class="dl-title">Flatpak</span>
+          <span class="dl-desc">Sandboxed, for any system with Flatpak.</span>
+          <span class="dl-size" data-size></span>
+        </a>
+        <a class="dl" data-file="snap"
+           href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">
+          <span class="dl-title">Snap</span>
+          <span class="dl-desc">Sandboxed, for systems with Snap.</span>
+          <span class="dl-size" data-size></span>
+        </a>
+        <details class="howto">
+          <summary>How to install on Linux</summary>
+          <p><strong>.deb:</strong> double-click the file to open it in your software center, or run:</p>
+          <pre><code>sudo apt install ./QPackageTracker_*_amd64.deb</code></pre>
+          <p><strong>AppImage:</strong> right-click the file, choose <em>Properties &gt; Permissions</em>,
+             tick <em>Allow executing as program</em>, then double-click it. Or run:</p>
+          <pre><code>chmod +x QPackageTracker-*-x86_64.AppImage &amp;&amp; ./QPackageTracker-*-x86_64.AppImage</code></pre>
+          <p><strong>Flatpak:</strong></p>
+          <pre><code>flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install --user ./QPackageTracker-*-x86_64.flatpak</code></pre>
+          <p><strong>Snap:</strong></p>
+          <pre><code>sudo snap install --dangerous ./QPackageTracker_*_amd64.snap</code></pre>
+          <p>All Linux versions are 64-bit. Tray features need a system tray, which some desktops turn on
+             with an extension.</p>
+        </details>
+      </div>
+
+      <div class="extras">
+        <div class="extra">
+          <h3>Just want to look around?</h3>
+          <p>The demo opens with sample packages already filled in. It needs no setup and sends nothing.
+             You can also open it from inside the app under Help &gt; Try Demo Mode.</p>
+          <p class="extra-links">
+            <a class="link" data-file="demo_windows" href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">Demo for Windows</a>
+            <a class="link" data-file="demo_linux" href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases/latest">Demo for Linux</a>
+          </p>
+        </div>
+        <div class="extra">
+          <h3>What you'll need</h3>
+          <ul>
+            <li>A Windows 10 or 11 PC, or a 64-bit Linux computer.</li>
+            <li>A free USPS Business account for tracking. The setup guide shows you how to get one.
+                Or use <a class="link" href="https://traceapi.dev/">Trace API</a>, whose free plan covers 1,000 lookups a month.</li>
+            <li>With Business, your own UPS, FedEx, DHL or Ship24 keys for those carriers.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="fine">
+        Every release is signed.
+        <a class="link" href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases#verify-a-download">How to check a download is genuine</a> ·
+        <a class="link" href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases">All versions</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="wrap narrow">
+      <h2>Questions</h2>
+      <details>
+        <summary>Is it really free?</summary>
+        <p>Yes, for personal use. You can track up to 10 packages at a time with USPS, for as long as you
+           like, and you get every update. A Business license adds more carriers, unlimited packages and ways
+           to notify other people.</p>
+      </details>
+      <details>
+        <summary>Do I need to create an account?</summary>
+        <p>Not with us. To get tracking information you connect a free USPS Business account (or a Trace API
+           account), and the setup guide walks you through it with pictures.</p>
+      </details>
+      <details>
+        <summary>Where does my information go?</summary>
+        <p>Your packages, notes and history are saved on your computer. Tracking numbers are only sent to the
+           tracking service you choose, so it can look them up. There is no advertising, analytics or crash
+           reporting. <a class="link" href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases#privacy">Full privacy details</a>.</p>
+      </details>
+      <details>
+        <summary>Does it work on a Mac, phone or tablet?</summary>
+        <p>QPackageTracker runs on Windows and Linux computers.</p>
+      </details>
+      <details>
+        <summary>Windows warned me about the installer. Is it safe?</summary>
+        <p>Windows sometimes warns about apps it hasn't seen often. If you downloaded the installer from this
+           page, click <strong>More info</strong> and then <strong>Run anyway</strong>. Every release is also
+           signed, and the app checks its own files each time it starts.</p>
+      </details>
+      <details>
+        <summary>How do I update?</summary>
+        <p>The app checks once a day and tells you when a new version is ready. Click <strong>Install</strong>
+           and it does the rest. Your packages and settings are kept.</p>
+      </details>
+      <details>
+        <summary>I bought Business. How do I use my key?</summary>
+        <p>Open QPackageTracker and go to <strong>Help &gt; License...</strong>, then enter your key. One license
+           covers one computer. To move it to a new computer, reset it in the license portal and enter it
+           there. If your license ever lapses, nothing is deleted.</p>
+      </details>
+      <details>
+        <summary>How do I get help?</summary>
+        <p>Email <a class="link" href="mailto:support@quynnsoftware.com">support@quynnsoftware.com</a>. It helps to
+           include the version number from <strong>Help &gt; About</strong>.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Closing call to action -->
+  <section class="cta">
+    <div class="wrap cta-inner">
+      <h2>Stop refreshing tracking pages.</h2>
+      <div class="hero-actions">
+        <a class="btn btn-light btn-lg" href="#download">Download free</a>
+        <a class="btn btn-outline-light btn-lg" href="http://my.quynnsoftware.com/order/q-package-tracker">Buy Business</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <a class="brand" href="#top">
+        <img src="assets/images/icon.svg" alt="" width="28" height="28">
+        <span>QPackageTracker</span>
+      </a>
+      <p>© 2026 Quynn Software Solutions</p>
+      <p><a class="link" href="mailto:support@quynnsoftware.com">support@quynnsoftware.com</a></p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases#privacy">Privacy</a></li>
+      <li><a href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/blob/main/EULA.txt">License agreement</a></li>
+      <li><a href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/blob/main/ATTRIBUTIONS.md">Attributions</a></li>
+      <li><a href="https://github.com/Quynn-Software-Solutions/QPackageTracker-releases/releases">Release notes</a></li>
+    </ul>
+    <p class="footer-legal">
+      QPackageTracker is not affiliated with, endorsed by or sponsored by USPS, UPS, FedEx, DHL, Ship24 or
+      Trace API. Their names are trademarks of their owners and are used only to say which services the app
+      works with.
+    </p>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Screenshots">
+  <div class="lb-top">
+    <p class="lb-caption"><span id="lb-caption"></span> <span class="lb-count" id="lb-count"></span></p>
+    <div class="lb-tools">
+      <div class="lb-theme" role="group" aria-label="Theme">
+        <button type="button" data-theme="light" aria-pressed="true">Light</button>
+        <button type="button" data-theme="dark" aria-pressed="false">Dark</button>
+      </div>
+      <button type="button" class="lb-close" id="lb-close" aria-label="Close">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="lb-stage" id="lb-stage">
+    <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="Previous screenshot">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></svg>
+    </button>
+    <img id="lb-img" alt="">
+    <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="Next screenshot">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg>
+    </button>
+  </div>
+  <div class="lb-thumbs" id="lb-thumbs"></div>
+</dialog>
+
+</body>
+</html>
