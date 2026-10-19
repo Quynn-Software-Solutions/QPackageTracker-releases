@@ -1,0 +1,89 @@
+QPackageTracker - End-User License Agreement
+
+1. Parties and acceptance
+This agreement is between you and Quynn Software Solutions ("we", "us"), the publisher of
+QPackageTracker ("the Software"). By installing or using the Software you accept these terms.
+If you do not accept them, do not install or use the Software.
+
+2. Free use
+You may use the Software free of charge for personal, non-commercial use on the computers
+you own or control. The free version has limits, such as a maximum number of active
+packages and the notification channels included in the free version. These limits are
+described in the Software and may change in later versions.
+
+3. Business use
+Tracking packages for a business, or sending notifications to anyone other than yourself,
+requires a QPackageTracker Business license bought through the official store. A Business
+license covers one computer. Each computer that runs the Software for business use needs
+its own license.
+
+4. License keys
+A license key is for your use only. Do not share it. A license key is bound to one computer.
+To move a license to another computer, use the license portal. The Software can run offline
+for the period set by the license lease; after that it must check in with the license server
+again to keep licensed features.
+
+5. Updates
+The Software may be updated. Every user receives every update. Updates are not gated by
+license.
+
+6. Restrictions
+You may not:
+(a) circumvent, disable or tamper with license checks or the integrity check of the Software;
+(b) reverse engineer the Software to remove or bypass its limits or license features, except
+    where the law allows it despite this restriction;
+(c) redistribute a modified copy of the Software, or a copy that has had its checks removed.
+
+7. Third-party services
+The Software uses the USPS APIs and related services, and can use other third-party services:
+carriers, tracking services and notification services. Your use of those services is subject
+to their own terms. Quynn Software Solutions is not affiliated with, endorsed by or sponsored
+by any of them. Each service's name, marks and logos belong to its owner and are used only to
+identify that service. The services are:
+
+USPS is a trademark of United States Postal Service. QPackageTracker is not affiliated with, endorsed by or sponsored by United States Postal Service.
+Trace is a trademark of Trace API (traceapi.dev). QPackageTracker is not affiliated with, endorsed by or sponsored by Trace API (traceapi.dev).
+UPS is a trademark of United Parcel Service of America, Inc. QPackageTracker is not affiliated with, endorsed by or sponsored by United Parcel Service of America, Inc.
+FedEx is a trademark of FedEx Corporation. QPackageTracker is not affiliated with, endorsed by or sponsored by FedEx Corporation.
+DHL is a trademark of Deutsche Post AG (DHL Group). QPackageTracker is not affiliated with, endorsed by or sponsored by Deutsche Post AG (DHL Group).
+Ship24 is a trademark of Ship24. QPackageTracker is not affiliated with, endorsed by or sponsored by Ship24.
+Outlook (classic) is a trademark of Microsoft Corporation. QPackageTracker is not affiliated with, endorsed by or sponsored by Microsoft Corporation.
+SMS (Twilio) is a trademark of Twilio Inc. QPackageTracker is not affiliated with, endorsed by or sponsored by Twilio Inc.
+Slack is a trademark of Slack Technologies, LLC. QPackageTracker is not affiliated with, endorsed by or sponsored by Slack Technologies, LLC.
+Discord is a trademark of Discord Inc. QPackageTracker is not affiliated with, endorsed by or sponsored by Discord Inc.
+Microsoft Teams is a trademark of Microsoft Corporation. QPackageTracker is not affiliated with, endorsed by or sponsored by Microsoft Corporation.
+
+
+8. Privacy summary
+The license check sends your license key, a hashed identifier of your computer, the version of
+the Software and the IP address as seen by the license server. Your tracking data, recipient
+names and notification settings stay on your computer in the Software's database.
+
+9. No warranty
+The Software is provided "as is", without warranty of any kind, express or implied, including
+merchantability, fitness for a particular purpose and non-infringement. Tracking results come
+from third-party services and may be incomplete or late.
+
+10. Limitation of liability
+To the extent the law allows, Quynn Software Solutions is not liable for indirect, incidental,
+special or consequential damages, or for lost packages, lost profits or lost data, arising from
+the use of or inability to use the Software. Our total liability is limited to the amount you
+paid for the license.
+
+11. Termination
+This agreement continues until terminated. It ends automatically if you breach it. A refund or
+chargeback revokes the license. On termination, stop using the Software and remove it from
+your computers.
+
+12. Governing law
+This agreement is governed by the laws of the State of Arizona, United States, without
+regard to its conflict-of-law rules. The United Nations Convention on Contracts for the
+International Sale of Goods does not apply. Any dispute arising from this agreement or the
+Software will be brought only in the state courts of Pima County, Arizona, or the United
+States District Court for the District of Arizona, and you and we consent to their
+jurisdiction. Nothing in this section removes rights you have under the mandatory
+consumer-protection laws of the country where you live.
+
+13. Contact
+Quynn Software Solutions
+Support: support@quynnsoftware.com

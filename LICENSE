@@ -1,0 +1,30 @@
+QPackageTracker
+Copyright (c) 2026 Quynn Software Solutions. All rights reserved.
+
+QPackageTracker is proprietary software. It is not open source, and its source
+code is not published.
+
+Use of QPackageTracker, including every file published on the Releases page of
+this repository, is governed by the QPackageTracker End-User License Agreement
+in EULA.txt. The installer shows the same agreement before it installs.
+
+In short (EULA.txt is the binding text):
+
+- Personal, non-commercial use is free, within the limits of the free version.
+- Business use, or sending notifications to anyone other than yourself, needs a
+  QPackageTracker Business license. One license covers one computer.
+- You may not circumvent its license or integrity checks, or redistribute a
+  modified copy.
+- The software is provided "as is", without warranty of any kind.
+
+QPackageTracker includes third-party components under their own licenses,
+including the GNU Lesser General Public License v3 (Qt and PySide6), the Apache
+License 2.0, the Mozilla Public License 2.0, the MIT license and BSD licenses.
+Those components are not covered by this proprietary license. See
+ATTRIBUTIONS.md for each component, its license, and how to get its source.
+
+The documentation and screenshots in this repository are covered by the same
+copyright. Third-party names, marks and logos belong to their owners; see the
+"Trademarks and affiliation" section of README.md.
+
+Contact: support@quynnsoftware.com
